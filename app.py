@@ -53,5 +53,4 @@ def main() -> None:
     st.html(_bundle_html(), width="stretch")
 
 
-if __name__ == "__main__":
-    main()
+main()
