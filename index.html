@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architechs | FTC Robotics</title>
+    <meta
+      name="description"
+      content="Architechs — FIRST Tech Challenge robotics team. Design, build, compete, and grow together."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#top">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="logo-text">
+            <span class="logo-team">Architechs</span>
+            <span class="logo-sub">FTC Robotics</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#robot">Robot</a></li>
+            <li><a href="#season">Season</a></li>
+            <li><a href="#outreach">Outreach</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-grid wrap">
+          <div class="hero-copy">
+            <p class="eyebrow">FIRST Tech Challenge</p>
+            <h1>Engineering the future, one match at a time.</h1>
+            <p class="lead">
+              We design, prototype, and compete with student-built robots while
+              practicing Gracious Professionalism® in everything we do.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Join or sponsor us</a>
+              <a class="btn btn-ghost" href="#season">This season</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-ring"></div>
+            <div class="hero-panel">
+              <div class="hero-metric">
+                <span class="metric-label">Build season</span>
+                <span class="metric-value">Active</span>
+              </div>
+              <div class="hero-code">
+                <pre><code><span class="kw">team</span>.mission = <span class="str">"inspire"</span>;
+<span class="kw">while</span> (!stop_build_day) {
+  <span class="fn">iterate</span>(design, build, test);
+}</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt">
+        <div class="wrap narrow">
+          <h2>Who we are</h2>
+          <p class="section-intro">
+            We’re a student-led FTC team combining mechanical design, software,
+            strategy, and outreach. Members learn CAD, Java/Kotlin (FTC SDK),
+            electronics, and how to present our work to judges and the community.
+          </p>
+          <div class="pillars">
+            <article class="pillar">
+              <h3>Design & build</h3>
+              <p>
+                From intake to auton, we iterate fast with documented design
+                decisions and a shared parts philosophy.
+              </p>
+            </article>
+            <article class="pillar">
+              <h3>Compete with integrity</h3>
+              <p>
+                Scouting, match strategy, and Gracious Professionalism® on and
+                off the field.
+              </p>
+            </article>
+            <article class="pillar">
+              <h3>Grow the pipeline</h3>
+              <p>
+                Workshops, demos, and mentorship so the next generation sees
+                STEM as theirs to shape.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="robot" class="section">
+        <div class="wrap split">
+          <div>
+            <h2>Our robot</h2>
+            <p class="section-intro">
+              This season’s machine balances reliability under defense with
+              scoring efficiency. Replace this blurb with your robot’s name, game
+              focus, and standout mechanisms.
+            </p>
+            <ul class="feature-list">
+              <li><strong>Drivetrain:</strong> Mecanum / tank / swerve — your choice</li>
+              <li><strong>Scoring:</strong> Describe your primary game piece path</li>
+              <li><strong>Autonomous:</strong> Camera, AprilTag, or dead-reckoning stack</li>
+              <li><strong>Reliability:</strong> Serviceable modules, pit checklist</li>
+            </ul>
+          </div>
+          <div class="robot-placeholder">
+            <div class="robot-frame">
+              <span class="robot-label">Robot photo or CAD render</span>
+              <span class="robot-hint">Drop an image into the project and link it in CSS/HTML.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="season" class="section section-alt">
+        <div class="wrap">
+          <h2>This season</h2>
+          <p class="section-intro narrow-block">
+            Track events, milestones, and links to your engineering notebook or
+            social feeds.
+          </p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-date">Kickoff</span>
+              <div class="timeline-body">
+                <h3>Game reveal & strategy</h3>
+                <p>Rule reading, prototype list, and team roles finalized.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">League meet</span>
+              <div class="timeline-body">
+                <h3>First qualification events</h3>
+                <p>Iterate auton and tele-op paths from real match data.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">Championship path</span>
+              <div class="timeline-body">
+                <h3>Regional / state / beyond</h3>
+                <p>Update dates, locations, and results as you earn them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="outreach" class="section">
+        <div class="wrap narrow">
+          <h2>Outreach</h2>
+          <p class="section-intro">
+            FIRST is more than robots. We run demos, summer camps, and
+            collaborations with local schools and sponsors. Summarize impact
+            metrics (students reached, hours, funds raised) here for judges and
+            supporters.
+          </p>
+        </div>
+      </section>
+
+      <section id="sponsors" class="section section-alt">
+        <div class="wrap">
+          <h2>Sponsors</h2>
+          <p class="section-intro narrow-block">
+            Our sponsors make travel, parts, and outreach possible. Thank you.
+          </p>
+          <div class="sponsor-grid">
+            <div class="sponsor-card">Sponsor logo</div>
+            <div class="sponsor-card">Sponsor logo</div>
+            <div class="sponsor-card">Sponsor logo</div>
+            <div class="sponsor-card">Sponsor logo</div>
+          </div>
+          <p class="sponsor-foot">
+            Interested in supporting <strong>Architechs</strong>?
+            <a href="#contact">Get in touch</a>.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="wrap split contact-inner">
+          <div>
+            <h2>Contact</h2>
+            <p class="section-intro">
+              Coaches, mentors, or students: reach out about joining,
+              mentoring, or sponsorship.
+            </p>
+            <address class="contact-details">
+              <p><strong>Email</strong><br /><a href="mailto:robotics@yourteam.org">robotics@yourteam.org</a></p>
+              <p><strong>Social</strong><br /><a href="#">Instagram / YouTube / GitHub</a></p>
+              <p><strong>Location</strong><br />Your school or meet address</p>
+            </address>
+          </div>
+          <form class="contact-form" action="#" method="post" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send (wire up backend)</button>
+            <p class="form-note">
+              This form is front-end only. Connect it to Formspree, Netlify
+              Forms, or your school email handler.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          © <span id="year"></span> Architechs. FIRST®, FIRST Tech Challenge®,
+          FTC®, and Gracious Professionalism® are trademarks of
+          <a href="https://www.firstinspires.org/" rel="noopener noreferrer" target="_blank">FIRST</a>.
+        </p>
+        <nav aria-label="Footer">
+          <a href="#top">Back to top</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
